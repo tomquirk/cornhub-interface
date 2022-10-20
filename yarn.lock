@@ -3922,7 +3922,7 @@
   resolved "https://registry.yarnpkg.com/@jbx-protocol/contracts-v2/-/contracts-v2-8.0.4.tgz#ceb72c01f56d528691d048d488fef2566961bb88"
   integrity sha512-AXEMkQzBOlllI0QNUadH1O+vkNnXCxfVXxff1OYWkx3qEqWNyPKifAv9ISECvEiFeN025dutivk3jNWjvbs+tQ==
 
-"@jbx-protocol/juice-contracts-v3@2.0.2", "@jbx-protocol/juice-contracts-v3@^2.0.0":
+"@jbx-protocol/juice-contracts-v3@^2.0.0":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@jbx-protocol/juice-contracts-v3/-/juice-contracts-v3-2.0.2.tgz#8bf7f451a1169473ae6e4f79f2fe40511c4623ce"
   integrity sha512-Xf9ZJbpIKjEwrcFfWKLMO8WmAO2OOZ/cJCV06XZZkApHHyJls901wyxX+EUZJHQkODO6zFjBGf8IHPla4YFYAw==
@@ -8030,6 +8030,10 @@ core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
+
+"cornhub@git+https://github.com/ciggybuttDAO/cornhub.git":
+  version "2.0.2"
+  resolved "git+https://github.com/ciggybuttDAO/cornhub.git#bf27a313b209a12627ff1849c38ea5cf1930322d"
 
 cors@^2.8.1:
   version "2.8.5"

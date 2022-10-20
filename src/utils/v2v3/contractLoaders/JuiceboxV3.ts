@@ -6,9 +6,7 @@ export const loadJuiceboxV3Contract = async (
   network: NetworkName,
 ) => {
   try {
-    return await import(
-      `@jbx-protocol/juice-contracts-v3/deployments/${network}/${contractName}.json`
-    )
+    return await import(`cornhub/deployments/${network}/${contractName}.json`)
   } catch (_) {
     return undefined
   }
