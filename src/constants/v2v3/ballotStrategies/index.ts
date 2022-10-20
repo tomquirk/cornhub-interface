@@ -15,22 +15,20 @@ type BallotOption = Record<
 // based on @jbx-protocol/v2-contracts@4.0.0
 export const DEPRECATED_BALLOT_ADDRESSES: BallotOption = {
   THREE_DAY: {
-    mainnet: '0x9733F02d3A1068A11B07516fa2f3C3BaEf90e7eF',
+    chapel: '0x9733F02d3A1068A11B07516fa2f3C3BaEf90e7eF',
   },
   SEVEN_DAY: {
     // No 7 day delay contract deployed with original V2
-    mainnet: constants.AddressZero,
+    chapel: constants.AddressZero,
   },
 }
 
 export const BALLOT_ADDRESSES: BallotOption = {
   THREE_DAY: {
-    mainnet: '0x4b9f876c7Fc5f6DEF8991fDe639b2C812a85Fb12',
-    goerli: '0xAa818525455C52061455a87C4Fb6F3a5E6f91090',
+    chapel: '0x4b9f876c7Fc5f6DEF8991fDe639b2C812a85Fb12',
   },
   SEVEN_DAY: {
-    mainnet: '0x642EFF5259624FD09D021AB764a4b47d1DbD5770',
-    goerli: '0xd2eEEdB22f075eBFf0a2A7D38781AA320CBc357E',
+    chapel: '0x642EFF5259624FD09D021AB764a4b47d1DbD5770',
   },
 }
 
